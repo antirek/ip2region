@@ -1,0 +1,25 @@
+{
+  "name": "ip2region",
+  "version": "1.0.0",
+  "description": "API based on SxGeo data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antirek/ip2region.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antirek/ip2region/issues"
+  },
+  "homepage": "https://github.com/antirek/ip2region#readme",
+  "dependencies": {
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "sypexgeo-vyvid": "^0.2.9"
+  }
+}
